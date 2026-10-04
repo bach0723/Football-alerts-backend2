@@ -1,0 +1,37 @@
+{
+  "name": "football-opportunities-alerts",
+  "version": "1.0.0",
+  "description": "Sistema de alertas de oportunidades em futebol com análise diária automática",
+  "main": "football-alerts-backend.js",
+  "type": "module",
+  "scripts": {
+    "start": "node football-alerts-backend.js",
+    "dev": "nodemon football-alerts-backend.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "football",
+    "alerts",
+    "opportunities",
+    "betting",
+    "analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "firebase-admin": "^12.0.0",
+    "redis": "^4.6.10",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
